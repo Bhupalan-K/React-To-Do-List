@@ -20,7 +20,6 @@ const LineItems = ({ check, deleteButton, item, }) => {
           onClick={() => deleteButton(item.id)}
           role="button"
           tabIndex="0"
-        // aria-label={'Delete ${item.activity}'}
         />
         </div>
       </li>

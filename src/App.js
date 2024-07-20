@@ -109,7 +109,7 @@ function App() {
   }
 
   return (
-    <div style={{ backgroundColor: "rgb(99, 122, 131)" }}>
+    <div className='main-div'>
       <Header title="To Do List" />
       <main>
         <SearchItem
@@ -127,13 +127,13 @@ function App() {
           removeAddItem={removeAddItem}
           searchRef={searchRef}
         />
-        {isLoading && <p>Loading Items..</p>}
-        {fetchError && <p>{`Error: ${fetchError}`}</p>}
+        {isLoading && <p className='errors'>Loading Items..</p>}
+        {fetchError && <p className='errors'>{`Error: ${fetchError}`}</p>}
         {!isLoading && !fetchError && <Content
           items={items.filter(item => item.activity.toLowerCase().includes(search.toLowerCase()))}
           check={check}
           deleteButton={deleteButton}
-        />}
+        />} 
       </main>
       <Footer length={items.length} />
     </div>

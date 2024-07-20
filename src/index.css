@@ -4,28 +4,33 @@
 }
 
 body {
-  background-color: rgb(99, 122, 131);
+  background-color: #DFBD52;
 }
 
 header {
   width: 100%;
   display: block;
   top: 0px;
-  background-color: rgb(99, 122, 131);
-  color: yellow;
+  background-color: #DFBD52;
+  color: #000000c2;
   text-align: center;
   padding: 25px 0;
+}
+ .main-div .errors{
+  background: #DFBD52;
+  text-align: center;
+  color: rgba(255, 0, 0, 0.76);
 }
 
 footer {
   margin: 0 auto;
   margin-top: 15px;
-  background-color: rgb(99, 122, 131);
-  color: yellow;
+  background-color: #DFBD52;
+  color: #000;
   text-align: center;
   width: 80%;
   padding: 20px 0;
-  border-top: 1px solid white;
+  border-top: 1px solid #000000c2;
 }
 
 /* -----------search------------ */
@@ -45,18 +50,18 @@ footer {
   border: none;
   padding: 10px;
   background: transparent;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #000000c2;
   font-size: larger;
 }
 
 .search input::placeholder {
-  color: white;
+  color: #000000c2;
 }
 
 .search .add-symbol {
   margin-top: 10px;
   font-size: 20px;
-  color: white;
+  color: #000000c2;
 }
 
 /* -------------content-------------- */
