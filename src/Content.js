@@ -11,7 +11,7 @@ const Content = ({items, check, deleteButton}) => {
          check = {check}
          deleteButton = {deleteButton}
         /> 
-      ) : (<h2>Your List is Empty</h2>)}
+      ) : (<h2 className='empty-search'>Your List is Empty</h2>)}
     </>
   )
 }

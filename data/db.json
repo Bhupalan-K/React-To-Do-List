@@ -6,44 +6,19 @@
       "activity": "Learn React"
     },
     {
-      "id": "21",
+      "id": "11",
+      "checked": true,
+      "activity": "Practice DSA\n"
+    },
+    {
+      "id": "111",
+      "checked": true,
+      "activity": "Morning Run"
+    },
+    {
+      "id": "1111",
       "checked": false,
-      "activity": "nvkdfnvk"
-    },
-    {
-      "id": "211",
-      "checked": true,
-      "activity": "skdvksdsd"
-    },
-    {
-      "id": "2111",
-      "checked": false,
-      "activity": "sklmsdvsdkv"
-    },
-    {
-      "id": "21111",
-      "checked": true,
-      "activity": "skkldsnndsvn"
-    },
-    {
-      "id": "211111",
-      "checked": false,
-      "activity": "nndkjndsnds"
-    },
-    {
-      "id": "2111111",
-      "checked": true,
-      "activity": "sjcnsjdndsn"
-    },
-    {
-      "id": "21111111",
-      "checked": true,
-      "activity": "kmckdslkds"
-    },
-    {
-      "id": "211111111",
-      "checked": true,
-      "activity": "lnmcxncvncxjnv"
+      "activity": "Apply for Jobs"
     }
   ]
 }
