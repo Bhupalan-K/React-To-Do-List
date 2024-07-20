@@ -125,7 +125,7 @@ function App() {
           addItem={addItem}
           addRef={addRef}
           removeAddItem={removeAddItem}
-          searchRef = {searchRef}
+          searchRef={searchRef}
         />
         {isLoading && <p>Loading Items..</p>}
         {fetchError && <p>{`Error: ${fetchError}`}</p>}
