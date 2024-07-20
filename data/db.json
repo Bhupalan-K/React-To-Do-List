@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "1",
-      "checked": true,
+      "checked": false,
       "activity": "Learn React"
     },
     {
@@ -44,31 +44,6 @@
       "id": "211111111",
       "checked": true,
       "activity": "lnmcxncvncxjnv"
-    },
-    {
-      "id": "2111111111",
-      "checked": false,
-      "activity": "clnnkvnxcv"
-    },
-    {
-      "id": "21111111111",
-      "checked": false,
-      "activity": "klmklkm"
-    },
-    {
-      "id": "211111111111",
-      "checked": false,
-      "activity": " kncnvcnxv"
-    },
-    {
-      "id": "2111111111111",
-      "checked": false,
-      "activity": "n"
-    },
-    {
-      "id": "21111111111111",
-      "checked": false,
-      "activity": "jxJxxjNxxxZx\n\n\n"
     }
   ]
 }
