@@ -1,22 +1,22 @@
 {
   "items": [
     {
-      "id": "1",
+      "id": 1,
       "checked": true,
       "activity": "Learn React"
     },
     {
-      "id": "11",
+      "id": 2,
       "checked": true,
       "activity": "Practice DSA\n"
     },
     {
-      "id": "111",
+      "id": 3,
       "checked": true,
       "activity": "Morning Run"
     },
     {
-      "id": "1111",
+      "id": 4,
       "checked": false,
       "activity": "Apply for Jobs\n"
     }

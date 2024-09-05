@@ -1,21 +1,21 @@
-import React  from 'react';
+import React from 'react';
 import { FaPlus } from 'react-icons/fa';
 
-const SearchItem = ({search, setSearch, addAddItem, searchRef}) => {
+const SearchItem = ({ search, setSearch, addAddItem, searchRef }) => {
 
 
   return (
     <main className="search">
-    <form className='searchform' onSubmit={(e) => e.preventDefault()}>
-        <input 
-        ref={searchRef}
-        type='text'
-        id='searchitem'
-        placeholder='search'
-        value={search}
-        onChange={(e) => setSearch(e.target.value)}
+      <form className='searchform' onSubmit={(e) => e.preventDefault()}>
+        <input
+          ref={searchRef}
+          type='text'
+          id='searchitem'
+          placeholder='search'
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
         />
-    </form>
+      </form>
       <FaPlus className='add-symbol' onClick={addAddItem} />
     </main>
   )

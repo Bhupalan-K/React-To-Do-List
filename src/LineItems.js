@@ -5,24 +5,24 @@ const LineItems = ({ check, deleteButton, item, }) => {
   return (
     <main className='contents'>
       <div className='items-div'>
-      <li key={item.id}>
-        <label style={(item.checked) ? { textDecoration: "line-through" } : null}
-          onDoubleClick={() => check(item.id)}>{item.activity}</label>
+        <li key={item.id}>
+          <label style={(item.checked) ? { textDecoration: "line-through" } : null}
+            onDoubleClick={() => check(item.id)}>{item.activity}</label>
           <div className='check-trash'>
-          <input
-          className='checkbox'
-          type="checkbox"
-          onChange={() => check(item.id)}
-          checked={item.checked}
-        />
-        <FaTrashAlt
-         className='trash-icon'
-          onClick={() => deleteButton(item.id)}
-          role="button"
-          tabIndex="0"
-        />
-        </div>
-      </li>
+            <input
+              className='checkbox'
+              type="checkbox"
+              onChange={() => check(item.id)}
+              checked={item.checked}
+            />
+            <FaTrashAlt
+              className='trash-icon'
+              onClick={() => deleteButton(item.id)}
+              role="button"
+              tabIndex="0"
+            />
+          </div>
+        </li>
       </div>
     </main>
   )

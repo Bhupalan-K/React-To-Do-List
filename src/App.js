@@ -10,7 +10,7 @@ function App() {
 
   const addRef = useRef(null);
 
-  const API_URL = "http://localhost:3500/items"
+  const API_URL = 'https://66d83bdc37b1cadd8053ed22.mockapi.io/items';
 
   const [items, setItems] = useState([])
   const [newItem, setNewItem] = useState("")
@@ -133,7 +133,7 @@ function App() {
           items={items.filter(item => item.activity.toLowerCase().includes(search.toLowerCase()))}
           check={check}
           deleteButton={deleteButton}
-        />} 
+        />}
       </main>
       <Footer length={items.length} />
     </div>
